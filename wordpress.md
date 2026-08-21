@@ -50,7 +50,7 @@ Procédure d`installation sur un VM distante
 
 0. demandez à votre référent d`être présent
 1. Ouvrez votre terminal
-2. Copiez, collez et remplacez `your_email@example.com` par votre adresse mail : `ssh-keygen -t ed25519 -C "your_email@example.com"`
+2. Copiez, cette ligne : `ssh-keygen -t ed25519 -C "your_email@example.com"` puis collez et remplacez `your_email@example.com` par votre adresse mail.
 3. suivez les instructions affichées sur le teminal.
 4. veillez à bien vous rappeler de l'emplacement de vos clés et  de leur PassPhrase
 5. Envoyez par mail/telegram vôtre `ssh public key` à votre référent.
