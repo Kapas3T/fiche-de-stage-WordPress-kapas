@@ -24,7 +24,7 @@ Procédure d`installation d'un LAMP et de WordPress
 
 1. ouvrir le terminal
 2. `mkdir temp && cd temp`
-3. `sudo apt install apache2 mariadb-server php php-mysql libapache2-mod-php php-xml php-gd php-mbstring php-curl php-zip unzip -y`        ### le `-y` dit a apt d'automatiquement répondre 'oui' / 'yes' aux demmandes de confirmation d'installation des packages
+3. `sudo apt install apache2 mariadb-server php php-mysql libapache2-mod-php php-xml php-gd php-mbstring php-curl php-zip unzip -y`
 4. `sudo sytemctl start apache2 || sudo systemctl start mariadb.service`
 5. `sudo mysql -u root`
 6. `CREATE DATABASE wordpress_db;`
