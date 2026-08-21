@@ -17,10 +17,7 @@ R: wordpress.org sert à se procurer le programme wordpress (gratuit). wordpress
 
 ### Étape 2 
 
-Procédure d`installation d'un LAMP et de WordPress
-
--> Tout texte écrit entre guillemets (guillemets non compris) sont des commandes à écrire dans le Terminal.  
-
+Procédure d'installation d'un LAMP et de WordPress.
 
 1. ouvrir le terminal
 1. `mkdir temp && cd temp`
@@ -52,8 +49,8 @@ Procédure d`installation sur un VM distante
 1. Tapez dans votre terminal `cat .ssh/id_ed25519.pub`
 1. Envoyez la réponse par mail/telegram à vôtre référent.
 1. Demandez au maître de stage / référent de vous créer une VM.
-1. Il vous renverra une ligne qui ressemble à celle-ci `ubuntu@12.345.678.910`
+1. Il vous renverra une ligne qui ressemble à celle-ci "ubuntu@12.345.678.910"
 1. Dans le terminal : `ssh connect [l'adresse qu'il vous a envoyé]`
 1. vérifiez que votre adresse dans le terminal correspond a celle qui vous à été envoyée. 
-1. reprenez depuis ici les mêmes étapes que dans `étape 2` ci-dessus.
+1. reprenez depuis ici les mêmes étapes que dans l'étape 2 ci-dessus.
 
