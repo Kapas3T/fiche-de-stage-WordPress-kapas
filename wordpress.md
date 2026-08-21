@@ -48,18 +48,17 @@ Procédure d`installation d'un LAMP et de WordPress
 
 Procédure d`installation sur un VM distante
 
-Source GitHub.com : 
-    0. demandez à votre référent d`être présent
-    1. Ouvrez votre terminal
-    2. Copiez, collez et remplacez `your_email@example.com` par votre adresse mail : `ssh-keygen -t ed25519 -C "your_email@example.com"`
-    3. suivez les instructions affichées sur le teminal.
-    4. veillez à bien vous rappeler de l'emplacement de vos clés et  de leur PassPhrase
+0. demandez à votre référent d`être présent
+1. Ouvrez votre terminal
+2. Copiez, collez et remplacez `your_email@example.com` par votre adresse mail : `ssh-keygen -t ed25519 -C "your_email@example.com"`
+3. suivez les instructions affichées sur le teminal.
+4. veillez à bien vous rappeler de l'emplacement de vos clés et  de leur PassPhrase
 5. Envoyez par mail/telegram vôtre `ssh public key` à votre référent.
 6. Demandez au maître de stage / référent de vous créer une VM.
 7. Il vous renverra une ligne qui ressemble à celle-ci `ubuntu@12.345.678.910` et éventuellement un `password : example`
 8. Ouvrez votre terminal
 9. `ssh connect [l'adresse qu'il vous a envoyé]`
-    9.5 -> si un `password` vous est demandé : copiez et collez le MDP envoyé par votre référent
-10. vérifiez que votre adresse dans le terminal correspond a celle qui vous à été envoyée. 
-11. reprenez depuis ici les mêmes étapes que dans `étape 2` ci-dessus.
+10. -> si un `password` vous est demandé : copiez et collez le MDP envoyé par votre référent
+11. vérifiez que votre adresse dans le terminal correspond a celle qui vous à été envoyée. 
+12. reprenez depuis ici les mêmes étapes que dans `étape 2` ci-dessus.
 
