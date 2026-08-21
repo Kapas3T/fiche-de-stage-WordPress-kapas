@@ -23,24 +23,24 @@ Procédure d`installation d'un LAMP et de WordPress
 
 
 1. ouvrir le terminal
-2. `mkdir temp && cd temp`
-3. `sudo apt install apache2 mariadb-server php php-mysql libapache2-mod-php php-xml php-gd php-mbstring php-curl php-zip unzip -y`
-4. `sudo sytemctl start apache2 || sudo systemctl start mariadb.service`
-5. `sudo mysql -u root`
-6. `CREATE DATABASE wordpress_db;`
-7. `CREATE USER user IDENTIFIED BY "password";`
-8. `GRANT ALL PRIVILEGES ON wordpress_db.* TO user;`
-9. `FLUSH PRIVILEGES;`
-10. `EXIT;`
-11. `cd ~/temp/`
-12. `wget https://wordpress.org`
-13. `tar -xvzf latest.tar.gz`
-14. `sudo mv -r wordpress/ /var/www/html/wp`
-15. `sudo chmod -R 755 /var/www/html/`
-16. ouvrir son browser préféré
-17. taper dans la barre d'url `localhost/wp`
-18. renseigner les informations de la DB
-19. vous avez terminé ! si il y a un problème : PEBCAK
+1. `mkdir temp && cd temp`
+1. `sudo apt install apache2 mariadb-server php php-mysql libapache2-mod-php php-xml php-gd php-mbstring php-curl php-zip unzip -y`
+1. `sudo sytemctl start apache2 || sudo systemctl start mariadb.service`
+1. `sudo mysql -u root`
+1. `CREATE DATABASE wordpress_db;`
+1. `CREATE USER user IDENTIFIED BY "password";`
+1. `GRANT ALL PRIVILEGES ON wordpress_db.* TO user;`
+1. `FLUSH PRIVILEGES;`
+1. `EXIT;`
+1. `cd ~/temp/`
+1. `wget -P /home/ubuntu/wordpress/ https://wordpress.org/latest.zip`
+1. `unzip latest.zip`
+1. `sudo mv -r wordpress/ /var/www/html/wp`
+1. `sudo chmod -R 755 /var/www/html/`
+1. ouvrir : http://localhost/wp
+1. renseigner les informations de la DB
+1. créer son compte 
+1. vous avez terminé.
 
 ---
 
@@ -48,17 +48,12 @@ Procédure d`installation d'un LAMP et de WordPress
 
 Procédure d`installation sur un VM distante
 
-0. demandez à votre référent d`être présent
-1. Ouvrez votre terminal
-2. Copiez, cette ligne : `ssh-keygen -t ed25519 -C "your_email@example.com"` puis collez et remplacez `your_email@example.com` par votre adresse mail.
-3. suivez les instructions affichées sur le teminal.
-4. veillez à bien vous rappeler de l'emplacement de vos clés et  de leur PassPhrase
-5. Envoyez par mail/telegram vôtre `ssh public key` à votre référent.
-6. Demandez au maître de stage / référent de vous créer une VM.
-7. Il vous renverra une ligne qui ressemble à celle-ci `ubuntu@12.345.678.910` et éventuellement un `password : example`
-8. Ouvrez votre terminal
-9. `ssh connect [l'adresse qu'il vous a envoyé]`
-10. -> si un `password` vous est demandé : copiez et collez le MDP envoyé par votre référent
-11. vérifiez que votre adresse dans le terminal correspond a celle qui vous à été envoyée. 
-12. reprenez depuis ici les mêmes étapes que dans `étape 2` ci-dessus.
+1. demandez à votre référent d'être présent
+1. Tapez dans votre terminal `cat .ssh/id_ed25519.pub`
+1. Envoyez la réponse par mail/telegram à vôtre référent.
+1. Demandez au maître de stage / référent de vous créer une VM.
+1. Il vous renverra une ligne qui ressemble à celle-ci `ubuntu@12.345.678.910`
+1. Dans le terminal : `ssh connect [l'adresse qu'il vous a envoyé]`
+1. vérifiez que votre adresse dans le terminal correspond a celle qui vous à été envoyée. 
+1. reprenez depuis ici les mêmes étapes que dans `étape 2` ci-dessus.
 
