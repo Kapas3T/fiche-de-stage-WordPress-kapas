@@ -46,11 +46,11 @@ Procédure d'installation d'un LAMP et de WordPress.
 Procédure d`installation sur un VM distante
 
 1. demandez à votre référent d'être présent
-1. Tapez dans votre terminal `cat .ssh/id_ed25519.pub`
-1. Envoyez la réponse par mail/telegram à vôtre référent.
+1. Tapez dans votre terminal `cat .ssh/id_ed25519.pub` - cette commande vous affiche, dans l'ordre, votre email, votre type d'encryption et vôtre clé ssh.
+1. Envoyez vôtre clé ssh par mail/telegram à vôtre référent.
 1. Demandez au maître de stage / référent de vous créer une VM.
 1. Il vous renverra une ligne qui ressemble à celle-ci "ubuntu@12.345.678.910"
-1. Dans le terminal : `ssh connect [l'adresse qu'il vous a envoyé]`
-1. vérifiez que votre adresse dans le terminal correspond a celle qui vous à été envoyée. 
-1. reprenez depuis ici les mêmes étapes que dans l'étape 2 ci-dessus.
+1. Dans le terminal : `ssh [la ligne qu'il vous a envoyé. ex: ubuntu@12.345.678.910]`
+1. vérifiez que vous êtes correctement connecté
+1. depuis ici, reprenez les mêmes étapes que dans l'étape 2 ci-dessus.
 
