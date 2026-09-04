@@ -92,10 +92,10 @@ Puis se rendre sur [Localhost](http://localhost).
 | `docker pull <image>` | Télécharger une image |
 | `docker images` | Liste les images installées localement | 
 | `docker rmi <image>` | Supprime l'imge "<image>" | 
-| `docker build -t <image> .`| Construit une image à partir d'un fichier dockerfile |
+| `docker build -t <image>`| Construit une image à partir d'un fichier dockerfile |
 
 
-##### Commandes relative aux **containaires**
+##### Commandes relative aux **containers**
 
 | Commande  | Action       |
 | :-----: | :---------- |
