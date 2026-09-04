@@ -54,3 +54,64 @@ Procédure d`installation sur un VM distante
 1. vérifiez que vous êtes correctement connecté
 1. depuis ici, reprenez les mêmes étapes que dans l'étape 2 ci-dessus.
 
+---
+## Partie 4 : DOCKER
+
+Docker est un outil qui permet de faire un paquet avec n'importe quelle application & ses dépendances et de l'executer sur n'importe 
+quel serveur distant.
+
+---
+
+La conteneurisation est beacoup plus légère et flexible que la vitualisation. 
+
+---
+
+Pour démarrer WordPress sur son ordinateur : 
+```
+sudo systemctl start apache2.service
+sudo systemctl start mariadb.service
+```
+Puis se rendre sur [Localhost](http://localhost).
+
+> Ces commandes démarrent le serveur web et la database, on ne peut pas à proprement dit "démarrer wordpress"
+
+---
+ ### Installation de docker 
+
+ ``` 
+  curl -fsSL https://get.docker.com | sh 
+```
+---
+### Les commandes 
+
+#### Commandes relatives aux **images**
+
+| Commande  | Action       |
+| :-----: | :---------- |
+| `docker run <image>` | Va aller chercher l'image <image> dans le cache local. S'il ne le trouve pas, il va directement la chercher en ligne    |
+| `docker pull <image>` | Télécharger une image |
+| `docker images` | Liste les images installées localement | 
+| `docker rmi <image>` | Supprime l'imge "<image>" | 
+| `docker build -t <image> .`| Construit une image à partir d'un fichier dockerfile |
+
+
+##### Commandes relative aux **containaires**
+
+| Commande  | Action       |
+| :-----: | :---------- |
+| `docker run -d <image>` | Fais tourner une image en daemon (en arrière-plan) |
+| `docker ps` | Liste tous les conteneurs en train de tourner |
+| `docker ps -a` | Liste tous les conteneurs, même ceux arrêtés |
+| `docker stop <id>` | Arrête un conteneur en cours d'exécution |
+| `docker rm <id>` | Supprime un conteneur |
+| `docker logs <id>` | Affiche les logs d'un conteneur |
+| `docker exec -it <id> sh` | Ouvre un terminal à l'intérieur d'un conteneur en cours d'exécution |
+
+--- 
+
+## Installer WordPress avec docker
+
+```
+sudo apt install npm
+
+```
