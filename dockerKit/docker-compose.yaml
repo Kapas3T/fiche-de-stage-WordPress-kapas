@@ -33,5 +33,17 @@ services:
     networks:
       - wp_network
 
-networks:
-  wp_network:
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: phpmyadmin_web
+    restart: always
+    depends_on:
+      - db
+    environment:
+      PMA_HOST: db
+      PMA_PORT: 3306
+      UPLOAD_LIMIT: 300M
+    ports:
+      - "6767:80"
+    networks:          # added — this is the fix
+      - wp_network
