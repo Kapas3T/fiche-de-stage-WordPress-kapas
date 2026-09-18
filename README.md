@@ -65,7 +65,7 @@ format des fichiers README sur GitHub.
 > un dépôt [Git] pour votre document et les différents fichiers dont vous
 > pourriez avoir besoin lors de ce stage.
 
-- [ ] J’ai un dossier avec mon document prêt
+- [x] J’ai un dossier avec mon document prêt
 
 
 # Première partie : à propos de WordPress
@@ -77,12 +77,12 @@ auteur, etc.). Répondez également aux questions : « WordPress est-il beaucoup
 utilisé ? », « Combien coûte WordPress ? » et « Quelle est la différence entre
 wordpress.com et wordpress.org » en développant vos réponses.
 
-- [ ] J’ai écrit le paragraphe « Qu’est-ce que WordPress »
-- [ ] J’ai répondu à la question « WordPress est-il beaucoup utilisé ? »
-- [ ] J’ai répondu à la question « Combien coûte WordPress ? »
-- [ ] J’ai répondu à la question « Quelle est la différence entre wordpress.com
+- [x] J’ai écrit le paragraphe « Qu’est-ce que WordPress »
+- [x] J’ai répondu à la question « WordPress est-il beaucoup utilisé ? »
+- [x] J’ai répondu à la question « Combien coûte WordPress ? »
+- [x] J’ai répondu à la question « Quelle est la différence entre wordpress.com
       et wordpress.org »
-- [ ] Je sais ce qu’est un CMS
+- [x] Je sais ce qu’est un CMS
 
 
 # Deuxième partie : installation locale
@@ -97,8 +97,8 @@ reproductible !
 Ajoutez la procédure d’installation à votre document et répondez à cette
 question : « De quoi WordPress a-t-il besoin pour fonctionner ? ».
 
-- [ ] J’explique comment je l’ai installé sur ma machine
-- [ ] J’ai listé les éléments dont WordPress avait besoin pour fonctionner
+- [x] J’explique comment je l’ai installé sur ma machine
+- [x] J’ai listé les éléments dont WordPress avait besoin pour fonctionner
 
 
 ## Validation de la deuxième partie
@@ -106,12 +106,12 @@ question : « De quoi WordPress a-t-il besoin pour fonctionner ? ».
 Avant d’aller plus loin, transmettez votre document à la personne encadrant le
 stage et discutez de votre installation avec elle.
 
-- [ ] La procédure d’installation est validée par l’encadrant·e (vous lui
+- [x] La procédure d’installation est validée par l’encadrant·e (vous lui
       expliquez la procédure et lui montrez votre site WordPress dans votre
       navigateur)
-- [ ] Vous avez discuté avec l’encadrant·e des éléments dont WordPress avait
+- [x] Vous avez discuté avec l’encadrant·e des éléments dont WordPress avait
       besoin pour fonctionner
-- [ ] Vous êtes en mesure de dire ce que sont `LAMP`, `MAMP`, `WAMP` et `XAMP`
+- [x] Vous êtes en mesure de dire ce que sont `LAMP`, `MAMP`, `WAMP` et `XAMP`
 
 
 # Troisième partie : installation distante
@@ -141,9 +141,9 @@ Lorsque le site est fonctionnel, demandez-vous si la procédure que vous avez
 établie est reproductible. Est-ce qu’on peut tout effacer et reprendre votre
 procédure ?
 
-- [ ] J’ai écrit le paragraphe « Procédure d’installation de WordPress sur
+- [x] J’ai écrit le paragraphe « Procédure d’installation de WordPress sur
       une VM distante »
-- [ ] J’ai protocolé toutes les étapes nécessaires à l’installation de WordPress
+- [x] J’ai protocolé toutes les étapes nécessaires à l’installation de WordPress
 
 
 ## Validation de la troisième partie
@@ -153,9 +153,9 @@ iel aura besoin d’un compte administrateur sur votre site. Créez lui un compt
 avec comme username son nom d’utilisateur EPFL et comme mot-de-passe le mot EPFL
 entouré de son sciper (`123456EPFL123456`).
 
-- [ ] Vous avez créé un compte administrateur pour l’encadrant·e
-- [ ] L’encadrant·e peut accéder au site WordPress
-- [ ] L’encadrant·e valide votre procédure
+- [x] Vous avez créé un compte administrateur pour l’encadrant·e
+- [x] L’encadrant·e peut accéder au site WordPress
+- [x] L’encadrant·e valide votre procédure
 
 
 ## À la découverte de WordPress
@@ -164,22 +164,22 @@ Maintenant que vous avez un site WordPress accessible à distance, c’est le
 moment de faire le **tour du propriétaire**. Commencez par créer des posts et
 des pages, en y incluant des médias.
 
-- [ ] Vous avez créé au moins 2 posts
-- [ ] Vous avez créé au moins 2 pages
+- [x] Vous avez créé au moins 2 posts
+- [x] Vous avez créé au moins 2 pages
 
 Parcourez les différents menus de l’interface d’administration, puis demandez
 à la personne responsable du stage une visite guidée des fonctionnalités.
 
-- [ ] L’encadrant·e vous a fait une visite guidée du backoffice de WordPress
-- [ ] Vous êtes capable d’expliquer la différence entre un post et une page
-- [ ] Vous savez installer et changer les thèmes
-- [ ] Vous savez installer et changer les plugins
-- [ ] Vous avez pris connaissance de l’écosystème des plugins et des thèmes
-- [ ] Vous savez utiliser le menu
-- [ ] Vous savez comment assigner un menu à un emplacement du thème
-- [ ] Vous avez visité le menu `settings` (URL Rewriting, etc.)
-- [ ] Vous savez utiliser les catégories et les tags, ainsi que leurs pages
-- [ ] Vous savez ce qu’est le «SEO» et un «excerpt»
+- [x] L’encadrant·e vous a fait une visite guidée du backoffice de WordPress
+- [x] Vous êtes capable d’expliquer la différence entre un post et une page
+- [x] Vous savez installer et changer les thèmes
+- [x] Vous savez installer et changer les plugins
+- [x] Vous avez pris connaissance de l’écosystème des plugins et des thèmes
+- [x] Vous savez utiliser le menu
+- [x] Vous savez comment assigner un menu à un emplacement du thème
+- [x] Vous avez visité le menu `settings` (URL Rewriting, etc.)
+- [x] Vous savez utiliser les catégories et les tags, ainsi que leurs pages
+- [x] Vous savez ce qu’est le «SEO» et un «excerpt»
 
 Prenez un peu de temps pour découvrir ces éléments : parcourrez le catalogue des
 thèmes et des plugins et installez-en quelques-un. Observez le comportement du
@@ -191,8 +191,8 @@ un paragraphe « Que manque-t-il pour que mon site soit opérationnel ? ». Ce
 paragraphe doit contenir tout ce dont votre site pourrait avoir besoin pour
 fonctionner en production et être visité par un millier d’utilisateurs par jour.
 
-- [ ] J’ai ajouté une capture d’écran dans mon document
-- [ ] J’ai écrit le paragraphe « Que manque-t-il pour que mon site soit
+- [x] J’ai ajouté une capture d’écran dans mon document
+- [x] J’ai écrit le paragraphe « Que manque-t-il pour que mon site soit
       opérationnel ? »
 
 
@@ -229,17 +229,17 @@ documentation liste les commandes principales qu’il faut connaître pour utili
 Docker et plus précisément pour lancer WordPress dans un conteneur sur votre
 ordinateur.
 
-- [ ] Vous expliquez ce qu’est [Docker] dans votre document
-- [ ] Vous expliquez en quoi la conteneurisation est différente de la
+- [x] Vous expliquez ce qu’est [Docker] dans votre document
+- [x] Vous expliquez en quoi la conteneurisation est différente de la
       virtualisation
-- [ ] Vous listez les commandes nécessaire à démarrer WordPress sur votre
+- [x] Vous listez les commandes nécessaire à démarrer WordPress sur votre
       ordinateur
-- [ ] Votre documentation contient un fichier `docker-compose.yml` fonctionnel
-- [ ] Vous êtes en mesure de comprendre la différence entre un Dockerfile,
+- [x] Votre documentation contient un fichier `docker-compose.yml` fonctionnel
+- [x] Vous êtes en mesure de comprendre la différence entre un Dockerfile,
       Docker et docker compose
-- [ ] Vous pouvez expliquer les ports, les volumes et les environnements dans
+- [x] Vous pouvez expliquer les ports, les volumes et les environnements dans
       le monde de Docker
-- [ ] Vous savez "entrer" dans un Docker
+- [x] Vous savez "entrer" dans un Docker
 
 Avant de terminer cette partie, vous devez avoir compris les avantages de votre
 kit de développement avec Docker. Les informations pour le développement de
@@ -257,7 +257,7 @@ WordPress depuis un client SQL de votre choix. Ajouter une capture d’écran du
 diagramme entité-association (« entity-relationship diagram », abrégé en ERD) de
 la base de données dans votre documentation.
 
-- [ ] Vous avez ajouté un plugin dans un volume et pu le modifier depuis
+- [x] Vous avez ajouté un plugin dans un volume et pu le modifier depuis
       l’extérieur du conteneur
 - [ ] Vous avez pu connecter un client de base de données à votre conteneur pour
       ajouter une capture d’écran du diagramme entité-association de la DB.
