@@ -137,3 +137,30 @@ MariaDB [wordpress]> describe wp_users;
 +---------------------+---------------------+------+-----+---------------------+----------------+
 10 rows in set (0.009 sec)
 ```
+---
+
+# Partie 5 : Déploiement en prod avec docker
+
+```Bash
+# Ajout de la clé GPG officielle de docker :
+sudo apt update
+sudo apt install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# Ajout du repo. dans les ressources APT:
+sudo tee /etc/apt/sources.list.d/docker.sources
+sudo apt update
+
+# Installation des pacages docker : 
+sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+# Téléchargement de mon docker-compose WordPress customisé
+wget https://raw.githubusercontent.com/Kapas3T/fiche-de-stage-WordPress-kapas/refs/heads/main/dockerKit/docker-compose.yaml
+
+# Création de l'environnement et déploiment
+mkdir SiteDocker && cd SiteDocker && sudo docker compose up -d
+
+
+```
