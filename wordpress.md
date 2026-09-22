@@ -57,14 +57,13 @@ Procédure d`installation sur un VM distante
 ---
 ## Partie 4 : DOCKER
 
-Docker est un outil qui permet de faire un paquet avec n'importe quelle application & ses dépendances et de l'executer sur n'importe 
+Docker est un outil qui permet de faire un container avec n'importe quelle application & ses dépendances et de l'executer sur n'importe 
 quel serveur distant.
 
 ---
 
-La conteneurisation est beacoup plus légère et flexible que la vitualisation. 
+La conteneurisation est moins gourmande que la virtualisation car il n'y a pas besoin de faire l'émulation matérielle.
 
----
 
 Pour démarrer WordPress sur son ordinateur : 
 ```

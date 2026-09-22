@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   db:
     image: mariadb:11
@@ -22,7 +20,7 @@ services:
     depends_on:
       - db
     ports:
-      - "80:80"
+      - "8000:80"
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_NAME: wordpress
@@ -44,6 +42,23 @@ services:
       PMA_PORT: 3306
       UPLOAD_LIMIT: 300M
     ports:
-      - "6767:80"
-    networks:          # added — this is the fix
+      - "1337:80"
+    networks:
       - wp_network
+    volumes:
+      - ./myadmin_data:/var/lib/phpmyadmin
+
+  npm:
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '443:443'
+      - '9000:81'
+    volumes:
+      - ./npm-data:/data
+      - ./npm-letsencrypt:/etc/letsencrypt
+
+
+networks:
+  wp_network:

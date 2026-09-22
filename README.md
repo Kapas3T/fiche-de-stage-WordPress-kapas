@@ -234,7 +234,7 @@ ordinateur.
       virtualisation
 - [x] Vous listez les commandes nécessaire à démarrer WordPress sur votre
       ordinateur
-- [x] Votre documentation contient un fichier `docker-compose.yml` fonctionnel
+- [x] Votre documentation contientd un fichier `docker-compose.yml` fonctionnel
 - [x] Vous êtes en mesure de comprendre la différence entre un Dockerfile,
       Docker et docker compose
 - [x] Vous pouvez expliquer les ports, les volumes et les environnements dans
